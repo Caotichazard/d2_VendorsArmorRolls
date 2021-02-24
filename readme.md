@@ -20,9 +20,12 @@ After the plan:
 Currently, it does get all info from the api, now I have to:
 - Organize all info
 - Prepare for posting
+    - "Classify" each roll
+        - by that I mean, set some parameters so it would just post the "god rolls" that meet some requirements
 - Post it
 
 Outside of code, I need:
 - Make the Readme Better
 - Maybe one day make this repo public
+- Comment code
 
