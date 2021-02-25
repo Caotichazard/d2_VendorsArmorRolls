@@ -1,11 +1,26 @@
-from twitter import *
-token = '1364261434734084099-xSKYiCLjkKcH5HhnSZWbQS8DNxnbkr'
-token_secret = '5Nh7dsFSoaP12Cc5NkZX7U5oSaYC4JXuINDasrPBwGxTs'
-consumer_key = '9dTFFdR5rqtx18IiymrlnGXRk'
-consumer_secret = 'v63D5IQ5073MFUsiBdlsHeGJvsua25WQDP14dadcmLLOHemWr6'
+import keys
 
-t = Twitter(
-    auth=OAuth(token, token_secret, consumer_key, consumer_secret))
+access_token = keys.TWITTER_KEYS["access_token"]
+access_token_secret = keys.TWITTER_KEYS["access_token_secret"]
+consumer_key = keys.TWITTER_KEYS["consumer_key"]
+consumer_secret = keys.TWITTER_KEYS["consumer_secret"]
 
-t.statuses.update(
-    status="Lávai\nOpora")
+import tweepy
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+api = tweepy.API(auth)
+
+public_tweets = api.home_timeline()
+for tweet in public_tweets:
+    #print(tweet['results'][0]['id'])
+    print("-----")
+
+
+def get_last_tweet():
+    tweet = api.user_timeline(id = api.me().id, count = 1)[0]
+    return tweet
+
+last_tweet = get_last_tweet()
+api.update_status(status = "hehe boy", in_reply_to_status_id = last_tweet.id_str)

@@ -8,81 +8,81 @@ armor_stats = {
 }
 
 item_index_dict= {
-    "zavala" : {
+    "Zavala" : {
         "titan": {
-            "head":"107",
+            "helmet":"107",
             "arms":"104",
             "chest":"105",
             "legs": "108"
         },
         "hunter": {
-            "head":"102",
+            "helmet":"102",
             "arms":"99",
             "chest":"100",
             "legs": "103"
         },
         "warlock": {
-            "head":"112",
+            "helmet":"112",
             "arms":"109",
             "chest":"110",
             "legs": "113"
         }
     },
-    "drifter" : {
+    "Drifter" : {
         "titan": {
-            "head":"124",
+            "helmet":"124",
             "arms":"121",
             "chest":"122",
             "legs": "125"
         },
         "hunter": {
-            "head":"119",
+            "helmet":"119",
             "arms":"116",
             "chest":"117",
             "legs": "120"
         },
         "warlock": {
-            "head":"129",
+            "helmet":"129",
             "arms":"126",
             "chest":"127",
             "legs": "130"
         }
     },
-    "shaxx" : {
+    "Shaxx" : {
         "titan": {
-            "head":"106",
+            "helmet":"106",
             "arms":"103",
             "chest":"104",
             "legs": "107"
         },
         "hunter": {
-            "head":"101",
+            "helmet":"101",
             "arms":"98",
             "chest":"99",
             "legs": "102"
         },
         "warlock": {
-            "head":"111",
+            "helmet":"111",
             "arms":"108",
             "chest":"109",
             "legs": "112"
         }
     },
-    "devrim" : {
+    "Devrim" : {
         "titan": {
-            "head":"11",
+            "helmet":"11",
             "arms":"9",
             "chest":"10",
             "legs": "8"
         },
         "hunter": {
-            "head":"6",
+            "helmet":"6",
             "arms":"4",
             "chest":"5",
             "legs": "3"
         },
         "warlock": {
-            "head":"16",
+            "helmet":"16",
             "arms":"14",
             "chest":"15",
             "legs": "13"

@@ -34,10 +34,7 @@ def bungie_callback():
     code = request.args.get('code')#gets the auth code
     access_code = code
     access_token = apiManager.get_token(code)#requests token to finalize auth
-    for vendor in keys.VENDORS_ID:#for each vendor
-        for character in keys.CHARATERS_ID:#for each class
-            vendorSales = apiManager.get_vendor_info(vendor,character,access_token)#gets the items stats
-            inforParser.parse_items(vendorSales,vendor,character)#parse the info from the sales of the vendor
+    inforParser.get_all_info(access_token)
     
     return render_template('index.html', url=url)
 
