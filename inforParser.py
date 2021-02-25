@@ -2,6 +2,7 @@ import itens
 import apiManager
 import keys
 import json
+import tw
 
 def parse_items(info,vendor,character):
     item_indexes = itens.item_index_dict[vendor][character]
@@ -44,10 +45,11 @@ def get_all_info(access_token):
 def get_tweets_info(access_token):
     all_info = get_all_info(access_token)
     tweets = prepare_tweets(all_info)
+    tw.tweet_info(tweets)
 
     
 def judge_item(item):
-    if item["stat_total"] >=60:
+    if item["stat_total"] >=58:
         item["is_notable"] = True
     elif item["Recovery"] >= 26 or item["Resilience"] >= 26 or item["Mobility"] >= 26 or item["Discipline"] >= 26 or item["Intellect"] >= 26 or item["Strength"] >= 26:
         item["is_notable"] = True
@@ -63,7 +65,8 @@ def prepare_tweets(all_info):
     tweets["overall"] = overall_tweet
     for char, char_id in keys.CHARATERS_ID.items():
         tweets[char] = char_thread_prep(all_info[char],char)
-    print(json.dumps(tweets, indent =2))
+    #print(json.dumps(tweets, indent =2))
+    return tweets
     #char_thread_prep(all_info["hunter"],"hunter")
     #char_thread_prep(all_info["warlock"],"warlock")
     
@@ -104,7 +107,7 @@ def char_thread_prep(char_info,char_class):
                         tweet += "Titans"
                     else:
                         tweet += "Hunters"
-                    tweet += " with the following stats\n"
+                    tweet += " with the following stats:\n\n"
 
                     tweet += "Mobility " + str(info["Mobility"]) + '\n'
                     tweet += "Resilience " + str(info["Resilience"]) + '\n'

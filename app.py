@@ -34,7 +34,7 @@ def bungie_callback():
     code = request.args.get('code')#gets the auth code
     access_code = code
     access_token = apiManager.get_token(code)#requests token to finalize auth
-    inforParser.get_all_info(access_token)
+    inforParser.get_tweets_info(access_token)
     
     return render_template('index.html', url=url)
 

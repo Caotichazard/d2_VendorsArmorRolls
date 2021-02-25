@@ -12,15 +12,18 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-public_tweets = api.home_timeline()
-for tweet in public_tweets:
-    #print(tweet['results'][0]['id'])
-    print("-----")
-
 
 def get_last_tweet():
     tweet = api.user_timeline(id = api.me().id, count = 1)[0]
     return tweet
 
-last_tweet = get_last_tweet()
-api.update_status(status = "hehe boy", in_reply_to_status_id = last_tweet.id_str)
+#last_tweet = get_last_tweet()
+#ret = api.update_status(status = "testando 123", in_reply_to_status_id = last_tweet.id_str)
+#print(ret)
+def tweet_info(info):
+    tweet_head = api.update_status(status = info["overall"])
+    for char, char_id in keys.CHARATERS_ID.items():
+        cur_head = tweet_head
+        for roll in info[char]:
+            cur_head = api.update_status(status = roll,in_reply_to_status_id = cur_head.id_str)
+            #print(roll)
