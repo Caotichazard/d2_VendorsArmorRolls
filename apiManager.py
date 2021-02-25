@@ -36,7 +36,32 @@ def get_token(code):
     
     
 
+def refresh_token(refresh_token):
+    access_token_url = "https://www.bungie.net/Platform/App/OAuth/Token/"
+    dataString = keys.CLIENT_ID +":"+ keys.CLIENT_SECRET
+    dataBytes = dataString.encode("utf-8")
+    encoded = base64.b64encode(dataBytes)
+    
+    
+    HEADERS = {
+        "Authorization":"Basic " + encoded.decode(),
+        "Content-Type":"application/x-www-form-urlencoded"
+    }
+    PAYLOAD = {
+        "grant_type":"refresh_token",
+        "code": refresh_token
+    }
+    response = requests.post(access_token_url, headers=HEADERS, data=PAYLOAD)
+    
 
+    responseJson = response.json()
+    access_token = responseJson['access_token']
+    refresh_token = responseJson['refresh_token']
+    
+    
+    
+    return access_token
+    pass
 
 def get_vendor_info(vendorName,charClass,access_token):
     url = "https://www.bungie.net/Platform/Destiny2/"+keys.MEMBERSHIP_TYPE+"/Profile/"+keys.MEMBERSHIP_ID+"/Character/"+keys.CHARATERS_ID[charClass]+"/Vendors/"+keys.VENDORS_ID[vendorName]+"?components=402,304"

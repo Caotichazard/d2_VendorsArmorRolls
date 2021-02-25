@@ -2,14 +2,11 @@
 ## Purpose
 The main purpose behind this is to, pratice and learn to use the Bungie.net API, learn to make better project organization, use other external API's and to make access to this info a little more simple
 
+Check it out at 
+https://twitter.com/ArmorVendorRoll
+
 ## Plans
-The plan is:
-- Get each vendors inventory by character
-- Get each items stat values and total
-- organize and record that information
-- send this information to other sources
-    - Initially the ideia is to make this a twitter bot to post the data there
-    - Maybe in the future make it also a Discord bot
+The plan has been done! Now in my TODO section has some QoL changes I would like to make after, for now I will try to just make a simple saving system for local storage.
 
 After the plan:
 - Set it to run without my input
@@ -17,12 +14,11 @@ After the plan:
 - Make it create images with the info to share and post
 
 ## TODO
-Currently, it does get all info from the api, now I have to:
-- Organize all info
-- Prepare for posting
-    - "Classify" each roll
-        - by that I mean, set some parameters so it would just post the "god rolls" that meet some requirements
-- Post it
+IT'S ALIVE! It does post on twitter and follow the thread type I had in mind!
+Now what I need is some QoL changes:
+- Currently it needs my input to authorize since I don't refresh the token
+- Maybe save the info so I can catalog and analyse the data over time?
+- Better code
 
 Outside of code, I need:
 - Make the Readme Better
