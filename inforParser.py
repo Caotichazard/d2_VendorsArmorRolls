@@ -3,6 +3,7 @@ import apiManager
 import keys
 import json
 import tw
+import storer
 
 def parse_items(info,vendor,character):
     item_indexes = itens.item_index_dict[vendor][character]
@@ -45,7 +46,8 @@ def get_all_info(access_token):
 def get_tweets_info(access_token):
     all_info = get_all_info(access_token)
     tweets = prepare_tweets(all_info)
-    tw.tweet_info(tweets)
+    #tw.tweet_info(tweets)
+    storer.store_info(all_info)
 
     
 def judge_item(item):
