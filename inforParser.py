@@ -46,7 +46,7 @@ def get_all_info(access_token):
 def get_tweets_info(access_token):
     all_info = get_all_info(access_token)
     tweets = prepare_tweets(all_info)
-    #tw.tweet_info(tweets)
+    tw.tweet_info(tweets)
     storer.store_info(all_info)
 
     
