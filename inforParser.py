@@ -46,6 +46,7 @@ def get_all_info(access_token):
 def get_tweets_info(access_token):
     all_info = get_all_info(access_token)
     tweets = prepare_tweets(all_info)
+    
     tw.tweet_info(tweets)
     storer.store_info(all_info)
 
@@ -85,7 +86,8 @@ def overall_tweet_prep(all_info):
 
 def char_thread_prep(char_info,char_class):
     tweets = []
-    if char_info["total_notable_rolls"] == 0:
+    if char_info["total_notable_rolls"] == "0":
+        
         tweet = "Sadly the RNG gods haven't graced the "
         if char_class == "warlock":
             tweet += "Warlocks, go back to reading those books "
