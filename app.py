@@ -8,6 +8,8 @@ import keys
 import itens
 import apiManager
 import inforParser
+import storer
+import tw
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'hard to guess string'
@@ -26,20 +28,30 @@ oauth_session = requests.Session()
 @app.route('/index')
 def index():
     url = AUTH_URL#url to start auth
-    return render_template('index.html', url=url)
+    urlTw = "/postTweets"
+    return render_template('index.html', url=url,urlTw=urlTw)
 
 @app.route('/callback/bungie')#on return from auth
 def bungie_callback():
     url = AUTH_URL
+    urlTw = "/postTweets"
     code = request.args.get('code')#gets the auth code
     access_code = code
     access_token = apiManager.get_token(code)#requests token to finalize auth
-    inforParser.get_tweets_info(access_token)
+    inforParser.get_data_info(access_token)
     
-    return render_template('index.html', url=url)
+    return render_template('index.html', url=url,urlTw=urlTw)
 
-
-    
+@app.route('/postTweets')
+def postTweets():
+    url = AUTH_URL
+    urlTw = "/postTweets"
+    print("A")
+    data = storer.get_info_from_file(storer.get_file_name())
+    tweets = inforParser.prepare_tweets(data)
+    tw.tweet_info(tweets)
+    print(tweets)
+    return render_template('index.html', url=url,urlTw=urlTw)
 
 
 

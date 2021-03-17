@@ -29,3 +29,12 @@ def store_info(info):
     file_name = get_file_name()
     with open("weeks/"+file_name+".json", "w") as file:
         file.write(json.dumps(info, indent=2))
+    with open("weeks/active.json", "w") as file:
+        file.write(json.dumps(info, indent=2))
+
+
+def get_info_from_file(fileName):
+    
+    with open("weeks/active.json", "r") as file:
+        data = json.load(file)
+        return data

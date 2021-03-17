@@ -1,0 +1,52 @@
+.class-grid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: saddlebrown;
+    padding: 0.5rem;
+}
+
+.vendor-grid{
+    display: inline-grid;
+    grid-template-columns: auto;
+    background-color: #4f06c4;
+    padding: 0.5rem;
+}
+
+  .item-card {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2b2b2b;
+    padding: 0.08rem;
+  }
+  .card-grid-item {
+    background-color: rgba(129, 129, 129, 0.8);
+    padding: 0.25rem;
+    
+    text-align: center;
+  }
+
+.notability-indicator{
+    width: 1rem;
+    height: 1rem;
+    background-color: rgba(255, 0, 0, 0.466);
+}
+.bar{
+    width: 12rem;
+    min-height: 1rem;
+    background-color: rgb(48, 47, 47);
+    
+}
+.bar-value{
+    width: 6rem;
+    min-height: 1rem;
+    background-color: rgb(212, 212, 212);
+}
+
+
+
+
+
+
+
+
+

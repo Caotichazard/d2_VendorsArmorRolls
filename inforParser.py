@@ -43,11 +43,11 @@ def get_all_info(access_token):
     #print(json.dumps(all_gear, indent =2))
     return all_gear
 
-def get_tweets_info(access_token):
+def get_data_info(access_token):
     all_info = get_all_info(access_token)
-    tweets = prepare_tweets(all_info)
+    #tweets = prepare_tweets(all_info)
     
-    tw.tweet_info(tweets)
+    #tw.tweet_info(tweets)
     storer.store_info(all_info)
 
     
@@ -82,6 +82,8 @@ def overall_tweet_prep(all_info):
     overall_tweet += "Warlocks: " + all_info["warlock"]["total_notable_rolls"] + "\n"
     overall_tweet += "\nCheck the following threads(one per class) for info on each roll"
     overall_tweet += "\nAnd don't forget to grab any rolls you need!"
+    overall_tweet += "\n#Destiny2 #TwitterBot"
+    
     return overall_tweet
 
 def char_thread_prep(char_info,char_class):
