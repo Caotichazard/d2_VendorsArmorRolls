@@ -16,7 +16,7 @@ app.config['SECRET_KEY'] = 'hard to guess string'
 
 manager = Manager(app)
 bootstrap = Bootstrap(app)
-#https://script.google.com/macros/s/AKfycbxe7UjhMRHi-VKOp2xT_-K96zqiaE6PvsMb4yKfF3JUfl_JYBg/exec
+
 
 AUTH_URL = "https://www.bungie.net/en/OAuth/Authorize?client_id="+ keys.CLIENT_ID +"&response_type=code"
 
