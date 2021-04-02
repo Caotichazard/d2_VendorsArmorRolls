@@ -39,6 +39,7 @@ def get_all_info(access_token):
             notable += int(all_gear[character][vendor]["notable_rolls"])
         all_gear[character]["total_notable_rolls"] = str(notable)
         all_classes_notable += notable
+        print(character + " done")
     all_gear["all_notable_rolls"] = str(all_classes_notable)
     #print(json.dumps(all_gear, indent =2))
     return all_gear
