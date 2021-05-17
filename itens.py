@@ -7,25 +7,28 @@ armor_stats = {
     "4244567218": "Strength"
 }
 
+#@TODO 
+#UPDATE FOR ADA
+#stores each of the Item index for each vendor
 item_index_dict= {
     "Zavala" : {
         "titan": {
-            "helmet":"107",
-            "arms":"104",
-            "chest":"105",
-            "legs": "108"
+            "helmet":"106",
+            "arms":"103",
+            "chest":"104",
+            "legs": "107"
         },
         "hunter": {
-            "helmet":"102",
-            "arms":"99",
-            "chest":"100",
-            "legs": "103"
+            "helmet":"101",
+            "arms":"98",
+            "chest":"99",
+            "legs": "102"
         },
         "warlock": {
-            "helmet":"112",
-            "arms":"109",
-            "chest":"110",
-            "legs": "113"
+            "helmet":"111",
+            "arms":"108",
+            "chest":"109",
+            "legs": "112"
         }
     },
     "Drifter" : {
@@ -87,5 +90,48 @@ item_index_dict= {
             "chest":"15",
             "legs": "13"
         }
-    }
+    },
+    #@TODO conferir se isso vai dar certo semana q vem
+    # Armadura vão do 170 até 214, conferir isso semana q vem
+    "Ada-1" : {
+        "titan": {
+            "helmet":"193",
+            "arms":"190",
+            "chest":"191",
+            "legs": "194"
+        },
+        "hunter": {
+            "helmet":"188",
+            "arms":"185",
+            "chest":"186",
+            "legs": "189"
+        },
+        "warlock": {
+            "helmet":"198",
+            "arms":"195",
+            "chest":"196",
+            "legs": "199"
+        }
+    },
+    #@TODO quando liberer login checar se funciona
+    "Failsafe" : {
+        "titan": {
+            "helmet":"25",
+            "arms":"22",
+            "chest":"23",
+            "legs": "26"
+        },
+        "hunter": {
+            "helmet":"20",
+            "arms":"17",
+            "chest":"18",
+            "legs": "21"
+        },
+        "warlock": {
+            "helmet":"30",
+            "arms":"27",
+            "chest":"28",
+            "legs": "31"
+        }
+    },
 }

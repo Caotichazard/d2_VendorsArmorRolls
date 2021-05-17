@@ -145,7 +145,7 @@
           "Intellect": 2,
           "Strength": 7,
           "stat_total": 52,
-          "is_notable": false
+          "is_notable": true
         },
         "arms": {
           "Mobility": 9,
@@ -178,9 +178,9 @@
           "is_notable": false
         }
       },
-      "notable_rolls": "0"
+      "notable_rolls": "1"
     },
-    "total_notable_rolls": "0"
+    "total_notable_rolls": "1"
   },
   "hunter": {
     "Zavala": {
@@ -283,7 +283,7 @@
           "Intellect": 7,
           "Strength": 16,
           "stat_total": 51,
-          "is_notable": false
+          "is_notable": true
         },
         "arms": {
           "Mobility": 17,
@@ -316,7 +316,7 @@
           "is_notable": false
         }
       },
-      "notable_rolls": "0"
+      "notable_rolls": "1"
     },
     "Devrim": {
       "items": {
@@ -363,7 +363,7 @@
       },
       "notable_rolls": "0"
     },
-    "total_notable_rolls": "3"
+    "total_notable_rolls": "4"
   },
   "warlock": {
     "Zavala": {
@@ -376,7 +376,7 @@
           "Intellect": 18,
           "Strength": 8,
           "stat_total": 57,
-          "is_notable": false
+          "is_notable": true
         },
         "arms": {
           "Mobility": 13,
@@ -396,7 +396,7 @@
           "Intellect": 2,
           "Strength": 16,
           "stat_total": 56,
-          "is_notable": false
+          "is_notable": true
         },
         "legs": {
           "Mobility": 2,
@@ -409,7 +409,7 @@
           "is_notable": false
         }
       },
-      "notable_rolls": "0"
+      "notable_rolls": "2"
     },
     "Drifter": {
       "items": {
@@ -441,7 +441,7 @@
           "Intellect": 2,
           "Strength": 7,
           "stat_total": 55,
-          "is_notable": false
+          "is_notable": true
         },
         "legs": {
           "Mobility": 7,
@@ -454,7 +454,7 @@
           "is_notable": false
         }
       },
-      "notable_rolls": "0"
+      "notable_rolls": "1"
     },
     "Shaxx": {
       "items": {
@@ -466,7 +466,7 @@
           "Intellect": 12,
           "Strength": 16,
           "stat_total": 56,
-          "is_notable": false
+          "is_notable": true
         },
         "arms": {
           "Mobility": 12,
@@ -476,7 +476,7 @@
           "Intellect": 19,
           "Strength": 9,
           "stat_total": 56,
-          "is_notable": false
+          "is_notable": true
         },
         "chest": {
           "Mobility": 14,
@@ -499,7 +499,7 @@
           "is_notable": false
         }
       },
-      "notable_rolls": "0"
+      "notable_rolls": "2"
     },
     "Devrim": {
       "items": {
@@ -511,7 +511,7 @@
           "Intellect": 6,
           "Strength": 2,
           "stat_total": 56,
-          "is_notable": false
+          "is_notable": true
         },
         "arms": {
           "Mobility": 13,
@@ -544,9 +544,9 @@
           "is_notable": true
         }
       },
-      "notable_rolls": "1"
+      "notable_rolls": "2"
     },
-    "total_notable_rolls": "1"
+    "total_notable_rolls": "7"
   },
-  "all_notable_rolls": "4"
+  "all_notable_rolls": "12"
 }

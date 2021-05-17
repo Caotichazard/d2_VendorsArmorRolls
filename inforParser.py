@@ -27,8 +27,9 @@ def parse_items(info,vendor,character):
     
     return items_info
 
+##access the api, gets the vendors sales and generates the dict of all items
 def get_all_info(access_token):
-    all_gear = {}
+    all_gear = {}#dict for all the items
     all_classes_notable = 0
     for character,char_id in keys.CHARATERS_ID.items():#for each class
         all_gear[character] = {}
@@ -52,41 +53,34 @@ def get_data_info(access_token):
     storer.store_info(all_info)
 
     
-def judge_item(item):
-    if item["stat_total"] >=58:
-        item["is_notable"] = True
-    elif item["Recovery"] >= 26 or item["Resilience"] >= 26 or item["Mobility"] >= 26 or item["Discipline"] >= 26 or item["Intellect"] >= 26 or item["Strength"] >= 26:
-        item["is_notable"] = True
-    else:
-        item["is_notable"] = False
-    
-    return item
 
+#parses the object to create the tweets
 def prepare_tweets(all_info):
     tweets = {}
 
     overall_tweet = overall_tweet_prep(all_info)
     tweets["overall"] = overall_tweet
-    for char, char_id in keys.CHARATERS_ID.items():
-        tweets[char] = char_thread_prep(all_info[char],char)
+    #for char, char_id in keys.CHARATERS_ID.items():
+        #tweets[char] = char_thread_prep(all_info[char],char)
     #print(json.dumps(tweets, indent =2))
     return tweets
     #char_thread_prep(all_info["hunter"],"hunter")
     #char_thread_prep(all_info["warlock"],"warlock")
     
-
+#creates the tweet "header"
 def overall_tweet_prep(all_info):
     overall_tweet = "This week the number of notable rolls are\n" + all_info["all_notable_rolls"] + "\n"
     overall_tweet += "Total notable rolls per class:\n" 
     overall_tweet += "Hunters: " + all_info["hunter"]["total_notable_rolls"] + "\n"
     overall_tweet += "Titans: " + all_info["titan"]["total_notable_rolls"] + "\n"
     overall_tweet += "Warlocks: " + all_info["warlock"]["total_notable_rolls"] + "\n"
-    overall_tweet += "\nCheck the following threads(one per class) for info on each roll"
+    overall_tweet += "\nCheck the following images(one per class) for info on each roll"
     overall_tweet += "\nAnd don't forget to grab any rolls you need!"
     overall_tweet += "\n#Destiny2 #TwitterBot"
     
     return overall_tweet
 
+#creates each tweet for each roll for each class
 def char_thread_prep(char_info,char_class):
     tweets = []
     if char_info["total_notable_rolls"] == "0":
@@ -125,7 +119,23 @@ def char_thread_prep(char_info,char_class):
                     tweets.append(tweet)
         return tweets
 
-
+#judges if a item is considered notable
+def judge_item(item):
+    item["is_notable"] = False
+    over15Count = 0
+    for stat in item:
+        if stat != "stat_total" and stat != "is_notable":
+            
+            if item[stat] > 25:
+                item["is_notable"] = True
+            elif item[stat] > 15:
+                over15Count+=1
+    if over15Count >=2:
+        item["is_notable"] = True
+    if item["stat_total"] > 55:
+        item["is_notable"] = True
+    
+    return item
 
 #make a rating system
 def judge_item_experiment(item,char):

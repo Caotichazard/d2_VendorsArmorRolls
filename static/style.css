@@ -1,0 +1,190 @@
+body{
+    
+    background-color: #cccccc;
+    font-size: 1vw;
+    
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+    
+}
+
+.titan{
+    background: linear-gradient(hsla(0, 0%, 0%, 0.40),black,black),url("titan_background.jpg") no-repeat;
+}
+.hunter{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),black,black),url("hunter_background.jpg") no-repeat;
+}
+.warlock{
+    background: linear-gradient(hsla(0, 0%, 0%, 0.40),black,black),url("warlock_background.jpg") no-repeat;
+}
+
+.header-grid{
+    color: white;
+    text-align: start;
+    display: inline-grid;
+    grid-auto-flow: column;
+    
+    justify-content: space-between;
+    
+}
+
+.class-image img{
+    max-height: 4em;
+    max-width: 4em;
+}
+
+.class-grid{
+    
+    display: inline-grid;
+    grid-template-rows: min-content auto ;
+    
+    
+    
+    
+}
+
+.class-name{
+    font-size: 10em;
+    text-align: start;
+}
+.subtext{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    display: inline-grid;
+    align-content: space-between;
+    
+}
+.vendor-name{
+    font-size: 2em;
+}
+
+.vendor-header{
+    
+    text-align: start;
+    display: inline-grid;
+    grid-auto-flow: column;
+    
+    justify-content: space-between;
+    
+}
+
+
+.vendor-grid{
+    
+    display: inline-grid;
+    
+    
+    grid-gap: 0.25em;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+}
+.inventory-grid{
+    display: inline-grid;
+    
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+
+  border-radius: 0.5em;
+    
+
+    
+}
+
+.zavala{
+    background-color: rgba(255, 145, 0, 0.9);
+}
+
+.drifter{
+    background-color: hsla(108, 100%, 23%, 0.9);
+}
+
+.shaxx{
+    background-color: rgba(204, 0, 0, 0.9);
+}
+
+.devrim{
+    background-color: hsl(123, 43%, 50%, 0.9);
+}
+
+.ada-1{
+    background-color: rgba(104, 104, 104, 0.9);
+}
+
+.failsafe{
+    background-color: rgba(255, 238, 0, 0.9);
+}
+
+.item-grid{
+    display: inline-grid;
+    grid-auto-flow: column;
+    
+    
+    
+    grid-gap: 0.5em;
+    padding: 0.5em;
+    
+    
+}
+
+.item-card{
+    background-color: rgba(153, 152, 152, 0.8);
+    display: inline-grid;
+    grid-template-rows: 2em auto;
+    align-self: center;
+    text-align: start;
+    height: 10fr;
+    width: 10fr;
+    border-radius: 0.25em;
+    padding: 1em;
+    
+}
+
+.item-header{
+    color:black;
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-content: center;
+    
+
+    padding: 1em;
+}
+
+.item-stat{
+    display: inline-grid;
+    padding: 00.5em;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+
+    height: 100%;
+    width: 100%;
+}
+
+.stat-bar{
+    align-self: start;
+    justify-content: start;
+}
+.bar{
+    width: 12em;
+    min-height: 1em;
+    background-color: rgb(48, 47, 47);
+    
+}
+.bar-value{
+    width: 6em;
+    min-height: 1em;
+    background-color: rgb(212, 212, 212);
+}
+
+.item-stat-value{
+    text-align: right;
+}

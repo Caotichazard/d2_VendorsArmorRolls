@@ -19,9 +19,13 @@ def get_last_tweet():
 
 
 def tweet_info(info):
-    tweet_head = api.update_status(status = info["overall"])
-    for char, char_id in keys.CHARATERS_ID.items():
-        cur_head = tweet_head
-        for roll in info[char]:
-            cur_head = api.update_status(status = roll,in_reply_to_status_id = cur_head.id_str)
+    images = ('titan.png', 'hunter.png','warlock.png')
+    media_ids = [api.media_upload(i).media_id_string  for i in images] 
+    print(media_ids)
+    
+    tweet_head = api.update_status(status = info["overall"], media_ids=media_ids)
+    #for char, char_id in keys.CHARATERS_ID.items():
+        #cur_head = tweet_head
+        #for roll in info[char]:
+            #cur_head = api.update_status(status = roll,in_reply_to_status_id = cur_head.id_str)
             

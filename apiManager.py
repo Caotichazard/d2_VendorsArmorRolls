@@ -73,5 +73,18 @@ def get_vendor_info(vendorName,charClass,access_token):
 
     request = requests.get(url, headers=HEADERS)
     response = request.json()
+    #print(response["Response"]["itemComponents"]["stats"]["data"])
     return response["Response"]["itemComponents"]["stats"]["data"]
     
+
+def get_vendors(charClass,access_token):
+    url = "https://www.bungie.net/Platform/Destiny2/"+keys.MEMBERSHIP_TYPE+"/Profile/"+keys.MEMBERSHIP_ID+"/Character/"+keys.CHARATERS_ID[charClass]+"/Vendors/"+keys.VENDORS_ID["Ada-1"]+"?components=402,304"
+    
+    HEADERS = {
+        "Authorization":"Bearer " + access_token,
+        "X-API-KEY": keys.API_KEY
+    }
+
+    request = requests.get(url, headers=HEADERS)
+    response = request.json()
+    return response
