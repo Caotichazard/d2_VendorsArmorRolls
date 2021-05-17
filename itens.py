@@ -113,7 +113,6 @@ item_index_dict= {
             "legs": "199"
         }
     },
-    #@TODO quando liberer login checar se funciona
     "Failsafe" : {
         "titan": {
             "helmet":"25",
