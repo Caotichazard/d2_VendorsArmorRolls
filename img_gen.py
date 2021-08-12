@@ -16,7 +16,7 @@ def infoToHtml(info,char):
     htmlString += '<div class="class-name"><span>'+char.capitalize()+'</span></div>'
     
     htmlString += '<div class="subtext">'
-    
+    htmlString += 'Made by: @D2WeeklyRolls'
     htmlString += '</div>'
     htmlString += '</div>'
     htmlString += '<div class="vendor-grid">'
@@ -31,7 +31,7 @@ def infoToHtml(info,char):
 
             #print(vendor)
             for armor in info[vendor]['items']:
-                htmlString += '<div class="item-card">'
+                htmlString += '<div class="item-card '+info[vendor]["items"][armor]["affinity"]+'">'
                 htmlString += '<div class="item-header">'
                 if info[vendor]["items"][armor]["is_notable"]:
                     htmlString += '<div>'+svgs.notable_svg["notable"]+'</div>'
@@ -43,7 +43,7 @@ def infoToHtml(info,char):
                                     
                 htmlString += '<div class="item-stat">'             
                 for stat in info[vendor]["items"][armor]:
-                    if stat != "is_notable" and stat != "stat_total":
+                    if stat != "is_notable" and stat != "stat_total" and stat!= "affinity":
                         
                         htmlString += '<span>'+stat+'</span>'            
                         htmlString += '<div class="stat-bar">'
@@ -66,6 +66,7 @@ def infoToHtml(info,char):
         #
     
     htmlString+= '</div>'
+    htmlString += '<div class="footer-text">A armor roll is considered "notable" if it has any of these characteristics: 15+ on two stats, 20+ on one stat or 56+ stat total </div>'
     htmlString+= '</div>'
     htmlString+= '</body></html>'
     #print(info)
@@ -100,7 +101,7 @@ def generateImgs(info):
     for char in info:
         if char != "all_notable_rolls":
             print(char)
-            generateHtml(week_to_check,char)
+            generateHtml(info,char)
             hti.screenshot(url=char+'.html', save_as=char+'.png')
 
 def testTheThing():

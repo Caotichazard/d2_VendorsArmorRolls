@@ -1,0 +1,822 @@
+{
+  "titan": {
+    "Zavala": {
+      "items": {
+        "helmet": {
+          "Mobility": 2,
+          "Resilience": 6,
+          "Recovery": 17,
+          "Discipline": 2,
+          "Intellect": 7,
+          "Strength": 19,
+          "stat_total": 53,
+          "is_notable": true
+        },
+        "arms": {
+          "Mobility": 2,
+          "Resilience": 16,
+          "Recovery": 6,
+          "Discipline": 2,
+          "Intellect": 2,
+          "Strength": 22,
+          "stat_total": 50,
+          "is_notable": true
+        },
+        "chest": {
+          "Mobility": 22,
+          "Resilience": 2,
+          "Recovery": 2,
+          "Discipline": 2,
+          "Intellect": 17,
+          "Strength": 7,
+          "stat_total": 52,
+          "is_notable": true
+        },
+        "legs": {
+          "Mobility": 2,
+          "Resilience": 12,
+          "Recovery": 11,
+          "Discipline": 2,
+          "Intellect": 17,
+          "Strength": 6,
+          "stat_total": 50,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "3"
+    },
+    "Drifter": {
+      "items": {
+        "helmet": {
+          "Mobility": 12,
+          "Resilience": 2,
+          "Recovery": 12,
+          "Discipline": 7,
+          "Intellect": 7,
+          "Strength": 14,
+          "stat_total": 54,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 10,
+          "Resilience": 2,
+          "Recovery": 16,
+          "Discipline": 2,
+          "Intellect": 23,
+          "Strength": 2,
+          "stat_total": 55,
+          "is_notable": true
+        },
+        "chest": {
+          "Mobility": 19,
+          "Resilience": 6,
+          "Recovery": 2,
+          "Discipline": 2,
+          "Intellect": 12,
+          "Strength": 12,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 12,
+          "Resilience": 7,
+          "Recovery": 6,
+          "Discipline": 2,
+          "Intellect": 10,
+          "Strength": 12,
+          "stat_total": 49,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "1"
+    },
+    "Shaxx": {
+      "items": {
+        "helmet": {
+          "Mobility": 6,
+          "Resilience": 6,
+          "Recovery": 12,
+          "Discipline": 2,
+          "Intellect": 27,
+          "Strength": 2,
+          "stat_total": 55,
+          "is_notable": true
+        },
+        "arms": {
+          "Mobility": 2,
+          "Resilience": 7,
+          "Recovery": 17,
+          "Discipline": 18,
+          "Intellect": 9,
+          "Strength": 2,
+          "stat_total": 55,
+          "is_notable": true
+        },
+        "chest": {
+          "Mobility": 22,
+          "Resilience": 2,
+          "Recovery": 2,
+          "Discipline": 14,
+          "Intellect": 10,
+          "Strength": 2,
+          "stat_total": 52,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 12,
+          "Resilience": 12,
+          "Recovery": 2,
+          "Discipline": 2,
+          "Intellect": 2,
+          "Strength": 22,
+          "stat_total": 52,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "2"
+    },
+    "Devrim": {
+      "items": {
+        "helmet": {
+          "Mobility": 10,
+          "Resilience": 10,
+          "Recovery": 2,
+          "Discipline": 13,
+          "Intellect": 2,
+          "Strength": 11,
+          "stat_total": 48,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 16,
+          "Resilience": 10,
+          "Recovery": 2,
+          "Discipline": 9,
+          "Intellect": 9,
+          "Strength": 10,
+          "stat_total": 56,
+          "is_notable": true
+        },
+        "chest": {
+          "Mobility": 2,
+          "Resilience": 10,
+          "Recovery": 10,
+          "Discipline": 2,
+          "Intellect": 2,
+          "Strength": 25,
+          "stat_total": 51,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 2,
+          "Resilience": 12,
+          "Recovery": 12,
+          "Discipline": 6,
+          "Intellect": 2,
+          "Strength": 20,
+          "stat_total": 54,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "1"
+    },
+    "Ada-1": {
+      "items": {
+        "helmet": {
+          "Mobility": 2,
+          "Resilience": 26,
+          "Recovery": 2,
+          "Discipline": 13,
+          "Intellect": 2,
+          "Strength": 14,
+          "stat_total": 59,
+          "is_notable": true
+        },
+        "arms": {
+          "Mobility": 2,
+          "Resilience": 16,
+          "Recovery": 9,
+          "Discipline": 12,
+          "Intellect": 6,
+          "Strength": 9,
+          "stat_total": 54,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 12,
+          "Resilience": 13,
+          "Recovery": 2,
+          "Discipline": 6,
+          "Intellect": 13,
+          "Strength": 7,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 2,
+          "Resilience": 22,
+          "Recovery": 2,
+          "Discipline": 11,
+          "Intellect": 8,
+          "Strength": 6,
+          "stat_total": 51,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "1"
+    },
+    "Failsafe": {
+      "items": {
+        "helmet": {
+          "Mobility": 8,
+          "Resilience": 14,
+          "Recovery": 6,
+          "Discipline": 7,
+          "Intellect": 6,
+          "Strength": 12,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 6,
+          "Resilience": 6,
+          "Recovery": 10,
+          "Discipline": 12,
+          "Intellect": 2,
+          "Strength": 12,
+          "stat_total": 48,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 26,
+          "Resilience": 2,
+          "Recovery": 2,
+          "Discipline": 18,
+          "Intellect": 2,
+          "Strength": 9,
+          "stat_total": 59,
+          "is_notable": true
+        },
+        "legs": {
+          "Mobility": 12,
+          "Resilience": 2,
+          "Recovery": 12,
+          "Discipline": 6,
+          "Intellect": 6,
+          "Strength": 12,
+          "stat_total": 50,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "1"
+    },
+    "total_notable_rolls": "9"
+  },
+  "hunter": {
+    "Zavala": {
+      "items": {
+        "helmet": {
+          "Mobility": 2,
+          "Resilience": 12,
+          "Recovery": 10,
+          "Discipline": 14,
+          "Intellect": 2,
+          "Strength": 13,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 7,
+          "Resilience": 12,
+          "Recovery": 6,
+          "Discipline": 8,
+          "Intellect": 10,
+          "Strength": 6,
+          "stat_total": 49,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 14,
+          "Resilience": 10,
+          "Recovery": 2,
+          "Discipline": 8,
+          "Intellect": 2,
+          "Strength": 16,
+          "stat_total": 52,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 12,
+          "Resilience": 12,
+          "Recovery": 2,
+          "Discipline": 7,
+          "Intellect": 2,
+          "Strength": 19,
+          "stat_total": 54,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "0"
+    },
+    "Drifter": {
+      "items": {
+        "helmet": {
+          "Mobility": 13,
+          "Resilience": 2,
+          "Recovery": 11,
+          "Discipline": 11,
+          "Intellect": 2,
+          "Strength": 14,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 12,
+          "Resilience": 6,
+          "Recovery": 7,
+          "Discipline": 6,
+          "Intellect": 9,
+          "Strength": 13,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 2,
+          "Resilience": 6,
+          "Recovery": 17,
+          "Discipline": 2,
+          "Intellect": 16,
+          "Strength": 8,
+          "stat_total": 51,
+          "is_notable": true
+        },
+        "legs": {
+          "Mobility": 2,
+          "Resilience": 19,
+          "Recovery": 6,
+          "Discipline": 11,
+          "Intellect": 6,
+          "Strength": 7,
+          "stat_total": 51,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "1"
+    },
+    "Shaxx": {
+      "items": {
+        "helmet": {
+          "Mobility": 2,
+          "Resilience": 28,
+          "Recovery": 2,
+          "Discipline": 12,
+          "Intellect": 7,
+          "Strength": 6,
+          "stat_total": 57,
+          "is_notable": true
+        },
+        "arms": {
+          "Mobility": 10,
+          "Resilience": 2,
+          "Recovery": 11,
+          "Discipline": 20,
+          "Intellect": 7,
+          "Strength": 2,
+          "stat_total": 52,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 10,
+          "Resilience": 2,
+          "Recovery": 10,
+          "Discipline": 2,
+          "Intellect": 16,
+          "Strength": 9,
+          "stat_total": 49,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 2,
+          "Resilience": 2,
+          "Recovery": 24,
+          "Discipline": 2,
+          "Intellect": 19,
+          "Strength": 6,
+          "stat_total": 55,
+          "is_notable": true
+        }
+      },
+      "notable_rolls": "2"
+    },
+    "Devrim": {
+      "items": {
+        "helmet": {
+          "Mobility": 2,
+          "Resilience": 16,
+          "Recovery": 6,
+          "Discipline": 12,
+          "Intellect": 6,
+          "Strength": 6,
+          "stat_total": 48,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 2,
+          "Resilience": 12,
+          "Recovery": 11,
+          "Discipline": 10,
+          "Intellect": 2,
+          "Strength": 13,
+          "stat_total": 50,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 6,
+          "Resilience": 12,
+          "Recovery": 6,
+          "Discipline": 20,
+          "Intellect": 7,
+          "Strength": 2,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 2,
+          "Resilience": 2,
+          "Recovery": 24,
+          "Discipline": 13,
+          "Intellect": 2,
+          "Strength": 11,
+          "stat_total": 54,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "0"
+    },
+    "Ada-1": {
+      "items": {
+        "helmet": {
+          "Mobility": 2,
+          "Resilience": 10,
+          "Recovery": 12,
+          "Discipline": 6,
+          "Intellect": 13,
+          "Strength": 9,
+          "stat_total": 52,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 2,
+          "Resilience": 10,
+          "Recovery": 16,
+          "Discipline": 9,
+          "Intellect": 13,
+          "Strength": 6,
+          "stat_total": 56,
+          "is_notable": true
+        },
+        "chest": {
+          "Mobility": 2,
+          "Resilience": 22,
+          "Recovery": 2,
+          "Discipline": 12,
+          "Intellect": 2,
+          "Strength": 12,
+          "stat_total": 52,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 18,
+          "Resilience": 2,
+          "Recovery": 6,
+          "Discipline": 7,
+          "Intellect": 10,
+          "Strength": 9,
+          "stat_total": 52,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "1"
+    },
+    "Failsafe": {
+      "items": {
+        "helmet": {
+          "Mobility": 2,
+          "Resilience": 24,
+          "Recovery": 2,
+          "Discipline": 2,
+          "Intellect": 12,
+          "Strength": 12,
+          "stat_total": 54,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 6,
+          "Resilience": 6,
+          "Recovery": 10,
+          "Discipline": 12,
+          "Intellect": 2,
+          "Strength": 12,
+          "stat_total": 48,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 2,
+          "Resilience": 10,
+          "Recovery": 12,
+          "Discipline": 6,
+          "Intellect": 2,
+          "Strength": 17,
+          "stat_total": 49,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 13,
+          "Resilience": 6,
+          "Recovery": 7,
+          "Discipline": 6,
+          "Intellect": 8,
+          "Strength": 12,
+          "stat_total": 52,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "0"
+    },
+    "total_notable_rolls": "4"
+  },
+  "warlock": {
+    "Zavala": {
+      "items": {
+        "helmet": {
+          "Mobility": 2,
+          "Resilience": 7,
+          "Recovery": 16,
+          "Discipline": 9,
+          "Intellect": 10,
+          "Strength": 7,
+          "stat_total": 51,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 10,
+          "Resilience": 7,
+          "Recovery": 6,
+          "Discipline": 10,
+          "Intellect": 12,
+          "Strength": 2,
+          "stat_total": 47,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 2,
+          "Resilience": 2,
+          "Recovery": 22,
+          "Discipline": 2,
+          "Intellect": 16,
+          "Strength": 7,
+          "stat_total": 51,
+          "is_notable": true
+        },
+        "legs": {
+          "Mobility": 9,
+          "Resilience": 6,
+          "Recovery": 13,
+          "Discipline": 2,
+          "Intellect": 16,
+          "Strength": 9,
+          "stat_total": 55,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "1"
+    },
+    "Drifter": {
+      "items": {
+        "helmet": {
+          "Mobility": 13,
+          "Resilience": 6,
+          "Recovery": 9,
+          "Discipline": 2,
+          "Intellect": 8,
+          "Strength": 19,
+          "stat_total": 57,
+          "is_notable": true
+        },
+        "arms": {
+          "Mobility": 22,
+          "Resilience": 2,
+          "Recovery": 2,
+          "Discipline": 12,
+          "Intellect": 7,
+          "Strength": 6,
+          "stat_total": 51,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 7,
+          "Resilience": 12,
+          "Recovery": 6,
+          "Discipline": 13,
+          "Intellect": 6,
+          "Strength": 9,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 9,
+          "Resilience": 2,
+          "Recovery": 16,
+          "Discipline": 11,
+          "Intellect": 6,
+          "Strength": 9,
+          "stat_total": 53,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "1"
+    },
+    "Shaxx": {
+      "items": {
+        "helmet": {
+          "Mobility": 10,
+          "Resilience": 10,
+          "Recovery": 2,
+          "Discipline": 6,
+          "Intellect": 19,
+          "Strength": 2,
+          "stat_total": 49,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 9,
+          "Resilience": 2,
+          "Recovery": 16,
+          "Discipline": 2,
+          "Intellect": 6,
+          "Strength": 18,
+          "stat_total": 53,
+          "is_notable": true
+        },
+        "chest": {
+          "Mobility": 21,
+          "Resilience": 2,
+          "Recovery": 6,
+          "Discipline": 10,
+          "Intellect": 6,
+          "Strength": 8,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 19,
+          "Resilience": 6,
+          "Recovery": 2,
+          "Discipline": 2,
+          "Intellect": 25,
+          "Strength": 2,
+          "stat_total": 56,
+          "is_notable": true
+        }
+      },
+      "notable_rolls": "2"
+    },
+    "Devrim": {
+      "items": {
+        "helmet": {
+          "Mobility": 2,
+          "Resilience": 10,
+          "Recovery": 12,
+          "Discipline": 2,
+          "Intellect": 20,
+          "Strength": 6,
+          "stat_total": 52,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 12,
+          "Resilience": 6,
+          "Recovery": 6,
+          "Discipline": 2,
+          "Intellect": 10,
+          "Strength": 10,
+          "stat_total": 46,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 8,
+          "Resilience": 10,
+          "Recovery": 9,
+          "Discipline": 14,
+          "Intellect": 6,
+          "Strength": 6,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 2,
+          "Resilience": 6,
+          "Recovery": 18,
+          "Discipline": 10,
+          "Intellect": 13,
+          "Strength": 2,
+          "stat_total": 51,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "0"
+    },
+    "Ada-1": {
+      "items": {
+        "helmet": {
+          "Mobility": 12,
+          "Resilience": 12,
+          "Recovery": 2,
+          "Discipline": 12,
+          "Intellect": 6,
+          "Strength": 7,
+          "stat_total": 51,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 16,
+          "Resilience": 10,
+          "Recovery": 2,
+          "Discipline": 2,
+          "Intellect": 6,
+          "Strength": 19,
+          "stat_total": 55,
+          "is_notable": true
+        },
+        "chest": {
+          "Mobility": 10,
+          "Resilience": 12,
+          "Recovery": 2,
+          "Discipline": 10,
+          "Intellect": 6,
+          "Strength": 7,
+          "stat_total": 47,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 14,
+          "Resilience": 2,
+          "Recovery": 10,
+          "Discipline": 2,
+          "Intellect": 6,
+          "Strength": 19,
+          "stat_total": 53,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "1"
+    },
+    "Failsafe": {
+      "items": {
+        "helmet": {
+          "Mobility": 12,
+          "Resilience": 12,
+          "Recovery": 2,
+          "Discipline": 7,
+          "Intellect": 2,
+          "Strength": 16,
+          "stat_total": 51,
+          "is_notable": false
+        },
+        "arms": {
+          "Mobility": 6,
+          "Resilience": 6,
+          "Recovery": 10,
+          "Discipline": 12,
+          "Intellect": 2,
+          "Strength": 12,
+          "stat_total": 48,
+          "is_notable": false
+        },
+        "chest": {
+          "Mobility": 17,
+          "Resilience": 9,
+          "Recovery": 2,
+          "Discipline": 7,
+          "Intellect": 6,
+          "Strength": 12,
+          "stat_total": 53,
+          "is_notable": false
+        },
+        "legs": {
+          "Mobility": 12,
+          "Resilience": 6,
+          "Recovery": 6,
+          "Discipline": 7,
+          "Intellect": 6,
+          "Strength": 13,
+          "stat_total": 50,
+          "is_notable": false
+        }
+      },
+      "notable_rolls": "0"
+    },
+    "total_notable_rolls": "5"
+  },
+  "all_notable_rolls": "18"
+}

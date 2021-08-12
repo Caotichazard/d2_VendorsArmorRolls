@@ -11,7 +11,8 @@ def parse_items(info,vendor,character):
     notable = 0
     items_info["items"] = {}
     for item,index in item_indexes.items():
-        item_stats = info[index]["stats"]
+        #print(json.dumps(info,indent=2))
+        item_stats = info["stats"]["data"][index]["stats"]
         temp = {}
         stat_total = 0
         for stat_hash,stat in itens.armor_stats.items():
@@ -19,6 +20,13 @@ def parse_items(info,vendor,character):
             stat_total += stat_value
             temp[stat] = stat_value
         temp["stat_total"] = stat_total
+        for sockets in info["sockets"]["data"][index]["sockets"]:
+            if(sockets["plugHash"] == 3020065861 or sockets["plugHash"] == 2248916764):
+                temp["affinity"] = "solar"
+            if(sockets["plugHash"] == 4048086880 or sockets["plugHash"] == 3482456145):
+                temp["affinity"] = "arc"
+            if(sockets["plugHash"] == 3003114972 or sockets["plugHash"] == 4197017647):
+                temp["affinity"] = "void"
         item_judged = judge_item(temp)
         if item_judged["is_notable"]:
             notable += 1
@@ -124,7 +132,7 @@ def judge_item(item):
     item["is_notable"] = False
     over15Count = 0
     for stat in item:
-        if stat != "stat_total" and stat != "is_notable":
+        if stat != "stat_total" and stat != "is_notable" and stat != "affinity":
             
             if item[stat] > 25:
                 item["is_notable"] = True

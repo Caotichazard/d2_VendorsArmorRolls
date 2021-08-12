@@ -10,7 +10,6 @@
           "Intellect": 14,
           "Strength": 6,
           "stat_total": 50,
-          "affinity": "solar",
           "is_notable": false
         },
         "arms": {
@@ -21,7 +20,6 @@
           "Intellect": 22,
           "Strength": 2,
           "stat_total": 50,
-          "affinity": "solar",
           "is_notable": false
         },
         "chest": {
@@ -32,7 +30,6 @@
           "Intellect": 9,
           "Strength": 6,
           "stat_total": 54,
-          "affinity": "solar",
           "is_notable": false
         },
         "legs": {
@@ -43,7 +40,6 @@
           "Intellect": 15,
           "Strength": 2,
           "stat_total": 57,
-          "affinity": "solar",
           "is_notable": true
         }
       },
@@ -59,7 +55,6 @@
           "Intellect": 8,
           "Strength": 8,
           "stat_total": 52,
-          "affinity": "arc",
           "is_notable": false
         },
         "arms": {
@@ -70,7 +65,6 @@
           "Intellect": 7,
           "Strength": 2,
           "stat_total": 55,
-          "affinity": "arc",
           "is_notable": true
         },
         "chest": {
@@ -81,7 +75,6 @@
           "Intellect": 7,
           "Strength": 10,
           "stat_total": 51,
-          "affinity": "arc",
           "is_notable": false
         },
         "legs": {
@@ -92,7 +85,6 @@
           "Intellect": 2,
           "Strength": 12,
           "stat_total": 55,
-          "affinity": "arc",
           "is_notable": false
         }
       },
@@ -108,7 +100,6 @@
           "Intellect": 8,
           "Strength": 9,
           "stat_total": 52,
-          "affinity": "solar",
           "is_notable": false
         },
         "arms": {
@@ -119,7 +110,6 @@
           "Intellect": 2,
           "Strength": 12,
           "stat_total": 53,
-          "affinity": "solar",
           "is_notable": false
         },
         "chest": {
@@ -130,7 +120,6 @@
           "Intellect": 9,
           "Strength": 6,
           "stat_total": 55,
-          "affinity": "solar",
           "is_notable": false
         },
         "legs": {
@@ -141,7 +130,6 @@
           "Intellect": 16,
           "Strength": 2,
           "stat_total": 62,
-          "affinity": "solar",
           "is_notable": true
         }
       },
@@ -157,7 +145,6 @@
           "Intellect": 8,
           "Strength": 8,
           "stat_total": 53,
-          "affinity": "solar",
           "is_notable": false
         },
         "arms": {
@@ -168,7 +155,6 @@
           "Intellect": 7,
           "Strength": 7,
           "stat_total": 56,
-          "affinity": "solar",
           "is_notable": true
         },
         "chest": {
@@ -179,7 +165,6 @@
           "Intellect": 13,
           "Strength": 2,
           "stat_total": 48,
-          "affinity": "solar",
           "is_notable": false
         },
         "legs": {
@@ -190,7 +175,6 @@
           "Intellect": 2,
           "Strength": 16,
           "stat_total": 53,
-          "affinity": "solar",
           "is_notable": true
         }
       },
@@ -206,7 +190,6 @@
           "Intellect": 14,
           "Strength": 12,
           "stat_total": 53,
-          "affinity": "arc",
           "is_notable": false
         },
         "arms": {
@@ -217,7 +200,6 @@
           "Intellect": 7,
           "Strength": 2,
           "stat_total": 49,
-          "affinity": "arc",
           "is_notable": false
         },
         "chest": {
@@ -228,7 +210,6 @@
           "Intellect": 14,
           "Strength": 6,
           "stat_total": 55,
-          "affinity": "arc",
           "is_notable": false
         },
         "legs": {
@@ -239,7 +220,6 @@
           "Intellect": 6,
           "Strength": 17,
           "stat_total": 49,
-          "affinity": "arc",
           "is_notable": false
         }
       },
@@ -255,7 +235,6 @@
           "Intellect": 2,
           "Strength": 21,
           "stat_total": 57,
-          "affinity": "arc",
           "is_notable": true
         },
         "arms": {
@@ -266,7 +245,6 @@
           "Intellect": 2,
           "Strength": 12,
           "stat_total": 48,
-          "affinity": "arc",
           "is_notable": false
         },
         "chest": {
@@ -277,7 +255,6 @@
           "Intellect": 6,
           "Strength": 16,
           "stat_total": 54,
-          "affinity": "arc",
           "is_notable": true
         },
         "legs": {
@@ -288,7 +265,6 @@
           "Intellect": 14,
           "Strength": 2,
           "stat_total": 56,
-          "affinity": "arc",
           "is_notable": true
         }
       },
@@ -307,7 +283,6 @@
           "Intellect": 17,
           "Strength": 6,
           "stat_total": 52,
-          "affinity": "solar",
           "is_notable": false
         },
         "arms": {
@@ -318,7 +293,6 @@
           "Intellect": 10,
           "Strength": 6,
           "stat_total": 49,
-          "affinity": "solar",
           "is_notable": false
         },
         "chest": {
@@ -329,7 +303,6 @@
           "Intellect": 12,
           "Strength": 2,
           "stat_total": 54,
-          "affinity": "solar",
           "is_notable": false
         },
         "legs": {
@@ -340,7 +313,6 @@
           "Intellect": 2,
           "Strength": 7,
           "stat_total": 54,
-          "affinity": "solar",
           "is_notable": true
         }
       },
@@ -356,7 +328,6 @@
           "Intellect": 7,
           "Strength": 11,
           "stat_total": 51,
-          "affinity": "solar",
           "is_notable": false
         },
         "arms": {
@@ -367,7 +338,6 @@
           "Intellect": 8,
           "Strength": 16,
           "stat_total": 60,
-          "affinity": "solar",
           "is_notable": true
         },
         "chest": {
@@ -378,7 +348,6 @@
           "Intellect": 10,
           "Strength": 6,
           "stat_total": 47,
-          "affinity": "solar",
           "is_notable": false
         },
         "legs": {
@@ -389,7 +358,6 @@
           "Intellect": 2,
           "Strength": 15,
           "stat_total": 59,
-          "affinity": "solar",
           "is_notable": true
         }
       },
@@ -405,7 +373,6 @@
           "Intellect": 7,
           "Strength": 2,
           "stat_total": 51,
-          "affinity": "solar",
           "is_notable": false
         },
         "arms": {
@@ -416,7 +383,6 @@
           "Intellect": 13,
           "Strength": 12,
           "stat_total": 55,
-          "affinity": "solar",
           "is_notable": false
         },
         "chest": {
@@ -427,7 +393,6 @@
           "Intellect": 8,
           "Strength": 6,
           "stat_total": 51,
-          "affinity": "solar",
           "is_notable": false
         },
         "legs": {
@@ -438,7 +403,6 @@
           "Intellect": 6,
           "Strength": 8,
           "stat_total": 52,
-          "affinity": "solar",
           "is_notable": false
         }
       },
@@ -454,7 +418,6 @@
           "Intellect": 12,
           "Strength": 12,
           "stat_total": 51,
-          "affinity": "solar",
           "is_notable": false
         },
         "arms": {
@@ -465,7 +428,6 @@
           "Intellect": 7,
           "Strength": 7,
           "stat_total": 53,
-          "affinity": "solar",
           "is_notable": false
         },
         "chest": {
@@ -476,7 +438,6 @@
           "Intellect": 10,
           "Strength": 8,
           "stat_total": 53,
-          "affinity": "solar",
           "is_notable": false
         },
         "legs": {
@@ -487,7 +448,6 @@
           "Intellect": 8,
           "Strength": 18,
           "stat_total": 56,
-          "affinity": "solar",
           "is_notable": true
         }
       },
@@ -503,7 +463,6 @@
           "Intellect": 2,
           "Strength": 28,
           "stat_total": 60,
-          "affinity": "arc",
           "is_notable": true
         },
         "arms": {
@@ -514,7 +473,6 @@
           "Intellect": 6,
           "Strength": 6,
           "stat_total": 52,
-          "affinity": "arc",
           "is_notable": false
         },
         "chest": {
@@ -525,7 +483,6 @@
           "Intellect": 21,
           "Strength": 2,
           "stat_total": 55,
-          "affinity": "arc",
           "is_notable": true
         },
         "legs": {
@@ -536,7 +493,6 @@
           "Intellect": 6,
           "Strength": 6,
           "stat_total": 50,
-          "affinity": "arc",
           "is_notable": false
         }
       },
@@ -552,7 +508,6 @@
           "Intellect": 6,
           "Strength": 11,
           "stat_total": 49,
-          "affinity": "arc",
           "is_notable": false
         },
         "arms": {
@@ -563,7 +518,6 @@
           "Intellect": 2,
           "Strength": 12,
           "stat_total": 48,
-          "affinity": "arc",
           "is_notable": false
         },
         "chest": {
@@ -574,7 +528,6 @@
           "Intellect": 17,
           "Strength": 6,
           "stat_total": 50,
-          "affinity": "arc",
           "is_notable": false
         },
         "legs": {
@@ -585,7 +538,6 @@
           "Intellect": 17,
           "Strength": 2,
           "stat_total": 54,
-          "affinity": "arc",
           "is_notable": true
         }
       },
@@ -604,7 +556,6 @@
           "Intellect": 19,
           "Strength": 7,
           "stat_total": 54,
-          "affinity": "solar",
           "is_notable": false
         },
         "arms": {
@@ -615,7 +566,6 @@
           "Intellect": 8,
           "Strength": 6,
           "stat_total": 52,
-          "affinity": "solar",
           "is_notable": false
         },
         "chest": {
@@ -626,7 +576,6 @@
           "Intellect": 9,
           "Strength": 18,
           "stat_total": 54,
-          "affinity": "solar",
           "is_notable": false
         },
         "legs": {
@@ -637,7 +586,6 @@
           "Intellect": 10,
           "Strength": 8,
           "stat_total": 54,
-          "affinity": "solar",
           "is_notable": false
         }
       },
@@ -653,7 +601,6 @@
           "Intellect": 13,
           "Strength": 2,
           "stat_total": 55,
-          "affinity": "arc",
           "is_notable": false
         },
         "arms": {
@@ -664,7 +611,6 @@
           "Intellect": 2,
           "Strength": 13,
           "stat_total": 57,
-          "affinity": "arc",
           "is_notable": true
         },
         "chest": {
@@ -675,7 +621,6 @@
           "Intellect": 11,
           "Strength": 13,
           "stat_total": 53,
-          "affinity": "arc",
           "is_notable": false
         },
         "legs": {
@@ -686,7 +631,6 @@
           "Intellect": 7,
           "Strength": 7,
           "stat_total": 54,
-          "affinity": "arc",
           "is_notable": false
         }
       },
@@ -702,7 +646,6 @@
           "Intellect": 14,
           "Strength": 9,
           "stat_total": 57,
-          "affinity": "arc",
           "is_notable": true
         },
         "arms": {
@@ -713,7 +656,6 @@
           "Intellect": 13,
           "Strength": 2,
           "stat_total": 49,
-          "affinity": "arc",
           "is_notable": false
         },
         "chest": {
@@ -724,7 +666,6 @@
           "Intellect": 7,
           "Strength": 12,
           "stat_total": 51,
-          "affinity": "arc",
           "is_notable": false
         },
         "legs": {
@@ -735,7 +676,6 @@
           "Intellect": 2,
           "Strength": 2,
           "stat_total": 52,
-          "affinity": "arc",
           "is_notable": false
         }
       },
@@ -751,7 +691,6 @@
           "Intellect": 11,
           "Strength": 6,
           "stat_total": 52,
-          "affinity": "solar",
           "is_notable": false
         },
         "arms": {
@@ -762,7 +701,6 @@
           "Intellect": 12,
           "Strength": 13,
           "stat_total": 55,
-          "affinity": "solar",
           "is_notable": false
         },
         "chest": {
@@ -773,7 +711,6 @@
           "Intellect": 6,
           "Strength": 6,
           "stat_total": 49,
-          "affinity": "solar",
           "is_notable": false
         },
         "legs": {
@@ -784,7 +721,6 @@
           "Intellect": 15,
           "Strength": 7,
           "stat_total": 54,
-          "affinity": "solar",
           "is_notable": false
         }
       },
@@ -800,7 +736,6 @@
           "Intellect": 2,
           "Strength": 16,
           "stat_total": 50,
-          "affinity": "arc",
           "is_notable": true
         },
         "arms": {
@@ -811,7 +746,6 @@
           "Intellect": 2,
           "Strength": 28,
           "stat_total": 60,
-          "affinity": "arc",
           "is_notable": true
         },
         "chest": {
@@ -822,7 +756,6 @@
           "Intellect": 9,
           "Strength": 13,
           "stat_total": 53,
-          "affinity": "arc",
           "is_notable": false
         },
         "legs": {
@@ -833,7 +766,6 @@
           "Intellect": 2,
           "Strength": 6,
           "stat_total": 49,
-          "affinity": "arc",
           "is_notable": false
         }
       },
@@ -849,7 +781,6 @@
           "Intellect": 6,
           "Strength": 2,
           "stat_total": 58,
-          "affinity": "arc",
           "is_notable": true
         },
         "arms": {
@@ -860,7 +791,6 @@
           "Intellect": 2,
           "Strength": 12,
           "stat_total": 48,
-          "affinity": "arc",
           "is_notable": false
         },
         "chest": {
@@ -871,7 +801,6 @@
           "Intellect": 2,
           "Strength": 22,
           "stat_total": 51,
-          "affinity": "arc",
           "is_notable": false
         },
         "legs": {
@@ -882,7 +811,6 @@
           "Intellect": 2,
           "Strength": 6,
           "stat_total": 49,
-          "affinity": "arc",
           "is_notable": false
         }
       },

@@ -7,6 +7,10 @@ armor_stats = {
     "4244567218": "Strength"
 }
 
+ada = 200
+#185 = wild hunt set
+# 170 = kerak, philomat, errant
+# 200 = mimetic, red moon, thoirum holt
 #@TODO 
 #UPDATE FOR ADA
 #stores each of the Item index for each vendor
@@ -92,25 +96,25 @@ item_index_dict= {
         }
     },
     #@TODO conferir se isso vai dar certo semana q vem
-    # Armadura vão do 170 até 214, conferir isso semana q vem
+    # Espaços de armadura, 170, 185, 200
     "Ada-1" : {
         "titan": {
-            "helmet":"193",
-            "arms":"190",
-            "chest":"191",
-            "legs": "194"
+            "helmet":str(ada+8),
+            "arms":str(ada+5),
+            "chest":str(ada+6),
+            "legs": str(ada+9)
         },
         "hunter": {
-            "helmet":"188",
-            "arms":"185",
-            "chest":"186",
-            "legs": "189"
+            "helmet":str(ada+3),
+            "arms":str(ada+0),
+            "chest":str(ada+1),
+            "legs": str(ada+4)
         },
         "warlock": {
-            "helmet":"198",
-            "arms":"195",
-            "chest":"196",
-            "legs": "199"
+            "helmet":str(ada+13),
+            "arms":str(ada+10),
+            "chest":str(ada+11),
+            "legs": str(ada+14)
         }
     },
     "Failsafe" : {

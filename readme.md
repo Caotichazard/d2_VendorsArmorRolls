@@ -11,17 +11,6 @@ The plan has been done! Now in my TODO section has some QoL changes I would like
 After the plan:
 - Set it to run without my input
 - Set it on a scheduled execution (chron-job ?)
-- Make it create images with the info to share and post
 
 ## TODO
-IT'S ALIVE! It does post on twitter and follow the thread type I had in mind!
-Now what I need is some QoL changes:
-- Currently it needs my input to authorize since I don't refresh the token
-- Maybe save the info so I can catalog and analyse the data over time?
-- Better code
-
-Outside of code, I need:
-- Make the Readme Better
-- Maybe one day make this repo public
-- Comment code
-
+Refactor code

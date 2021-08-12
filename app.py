@@ -59,6 +59,7 @@ def genImages():
     urlTw = "/postTweets"
     urlImg = "/generateImages"
     data = storer.get_info_from_file(storer.get_file_name())
+    print(data)
     img_gen.generateImgs(data)
     return render_template('index.html', url=url,urlImg=urlImg,urlTw=urlTw)#sets info to try again
 
